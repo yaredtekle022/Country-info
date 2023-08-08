@@ -1,4 +1,7 @@
 import { NavLink } from 'react-router-dom';
+import { FaMicrophone } from 'react-icons/fa';
+import { IoMdSettings } from 'react-icons/io';
+import { IoChevronBack } from 'react-icons/io5';
 
 const Navbar = () => (
   <header className="">
