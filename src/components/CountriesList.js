@@ -8,7 +8,6 @@ function CountriesList() {
   if (!countries || countries.status === StatusType.LOADING) {
     return <span>Loading...</span>;
   }
-  console.log(countries);
   return (
     <section>
       <ul>
@@ -17,8 +16,7 @@ function CountriesList() {
             key={country.geonameId}
             index={index}
             countryName={country.countryName}
-            img=""
-            countryCode={country.geonamesId}
+            countryCode={country.countryCode}
             currencyCode={country.currencyCode}
             areaInSqKm={country.areaInSqKm}
             continentName={country.continentName}
