@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import getFlagImageUrl from './Flags';
-import PoliticalDivisions from './PoliticalDivisions';
+import PoliticalDivisions from './CountryInfo';
 
 function CountrySection({ geonameId }) {
   const flagImageUrl = getFlagImageUrl(geonameId);

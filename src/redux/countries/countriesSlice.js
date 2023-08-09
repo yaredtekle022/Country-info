@@ -20,6 +20,7 @@ export const getCountries = createAsyncThunk(
 const initialState = {
   countriesArr: [],
   filteredList: [],
+  searchString: '',
   status: StatusType.LOADING,
   error: null,
 };
@@ -29,10 +30,7 @@ const countriesSlice = createSlice({
   initialState,
   reducers: {
     updateFoundList: (state, action) => {
-      const filteredList = state.countriesArr.filter(
-        (country) => country.countryName.toLowerCase().includes(action.payload.toLowerCase()),
-      );
-      state.filteredList = filteredList;
+    state.searchString = action.payload;
     },
   },
 
