@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Layout from './components/Layout';
 import Countries from './redux/routes/Countries';
-import SpecificCountry from './redux/routes/SpecificCountries'
+import SpecificCountry from './redux/routes/SpecificCountries';
 import { getCountries } from './redux/countries/countriesSlice';
 
 function App() {
