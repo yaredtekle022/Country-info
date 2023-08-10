@@ -6,8 +6,9 @@ function CountriesList() {
   const countries = useSelector((store) => store.countries);
 
   if (!countries || countries.status === StatusType.LOADING) {
-    return <span>Loading...</span>;
+    return <span className="span2">Loading...</span>;
   }
+
   return (
     <section>
       <ul>
