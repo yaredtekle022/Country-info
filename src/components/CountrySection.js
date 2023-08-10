@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import PoliticalDivisions from './CountryInfo';
 
 function CountrySection({ geonameId }) {
-
   return (
     <div>
       <PoliticalDivisions geonameId={geonameId} />

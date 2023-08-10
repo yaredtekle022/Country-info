@@ -25,26 +25,26 @@ function PoliticalDivisions({ geonameId }) {
   return (
     <div>
       {provinceData.length > 0 ? (
-                <div>
-                  <h2>
+        <div>
+          <h2>
             <img src={getFlagImageUrl(provinceData[0].countryCode)} alt="country-flag" className="flag2" />
             {countryName}
           </h2>
-                {/* Display country name */}
-                <ul>
-                  {provinceData.map((province) => (
-                    <li key={province.geonameId}>
-                      Province / State:
-                      {' '}
-                      {province.toponymName}
-                      <br />
-                      Population:
-                      {' '}
-                      {province.population}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          {/* Display country name */}
+          <ul>
+            {provinceData.map((province) => (
+              <li key={province.geonameId}>
+                Province / State:
+                {' '}
+                {province.toponymName}
+                <br />
+                Population:
+                {' '}
+                {province.population}
+              </li>
+            ))}
+          </ul>
+        </div>
       ) : (
         <p>No province data available.</p>
       )}

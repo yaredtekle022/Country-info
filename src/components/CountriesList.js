@@ -11,7 +11,7 @@ function CountriesList() {
   return (
     <section>
       <ul>
-      {countries?.countriesArr
+        {countries?.countriesArr
           .filter(({ countryName }) => countryName
             .toUpperCase()
             .includes(countries.searchString.toUpperCase()))

@@ -1,23 +1,23 @@
-.country-card{
+.country-card {
   display: flex;
   border: solid 1px black;
 }
 
-.country-info{
+.country-info {
   width: 250px;
   padding: 15px;
 }
 
-.country-image{
+.country-image {
   width: 170px;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.flag2{
+.flag2 {
   width: 150px;
 }

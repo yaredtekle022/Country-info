@@ -21,7 +21,7 @@ function Country({
   return (
     <NavLink className={`country-card ${style}`} to={`country/${geonameId}`}>
       <div className="country-info">
-      <img className="country-image" src={flagImageUrl} alt={countryName} />
+        <img className="country-image" src={flagImageUrl} alt={countryName} />
         <p className="country-name">{countryName}</p>
         <p className="currency-code">{currencyCode}</p>
       </div>
