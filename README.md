@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers Hub <a name="about-project"></a>
+# 📖 Country-Info <a name="about-project"></a>
 
 Country Info is a full stack web application  developed to be able to learn the provinces, states or communes of all the countries around the world.
 
@@ -81,9 +81,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need node package manager<br>
 
-
  npm install 
-
 
 ### Setup
 
