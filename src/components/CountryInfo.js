@@ -10,7 +10,7 @@ function PoliticalDivisions({ geonameId }) {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    const urlProvinces = `https://api.geonames.org/childrenJSON?geonameId=${geonameId}&username=yaredtekle22`;
+    const urlProvinces = `https://secure.geonames.org/childrenJSON?geonameId=${geonameId}&username=yaredtekle22`;
 
     axios.get(urlProvinces)
       .then((response) => {
