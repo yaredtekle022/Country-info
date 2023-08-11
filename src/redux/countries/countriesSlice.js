@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import StatusType from '../../components/StatusTypes';
 
-const API_URL = 'http://api.geonames.org/countryInfoJSON?username=yaredtekle22';
+const API_URL = 'https://api.geonames.org/countryInfoJSON?username=yaredtekle22';
 export const getCountries = createAsyncThunk(
   'countries/getCountries',
   async () => {
