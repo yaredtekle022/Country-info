@@ -74,7 +74,7 @@ Features
 
 ## 🚀 Live Demo
 
-Live Demo link: (https://deploy-preview-6--yaredtekle-countryinfo.netlify.app)
+Live Demo link: (https://counrty-information.onrender.com)
 
 <!-- GETTING STARTED -->
 
