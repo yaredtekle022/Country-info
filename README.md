@@ -74,7 +74,7 @@ Features
 
 ## 🚀 Live Demo
 
-Live Demo link: (https://counrty-information.onrender.com)
+Live Demo link: (https://country-informati0ns.onrender.com/)
 
 <!-- GETTING STARTED -->
 
