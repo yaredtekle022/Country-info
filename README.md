@@ -36,6 +36,8 @@
 # 📖 Country-Info <a name="about-project"></a>
 
 Country Info is a full stack web application  developed to be able to learn the provinces, states or communes of all the countries around the world.
+<br>
+### [PRESENTATION VIDEO](https://www.loom.com/share/c26ecc49667c4f0a8d17b5c768558659)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,6 +69,14 @@ Features
 
 ### Key Features <a name="key-features"></a>
 - **[Explore population statistics and trends]**
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo
+
+Live Demo link: (https://deploy-preview-6--yaredtekle-countryinfo.netlify.app)
+
+<!-- GETTING STARTED -->
 
 **Project Setup**- React and Linters
 
